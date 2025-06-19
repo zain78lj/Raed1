@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>Raed Al-zaidi - حساباتي</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: 'Tahoma', sans-serif;
+            text-align: center;
+            padding: 30px;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #555;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 40px;
+        }
+        .social-links img {
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+            transition: transform 0.2s;
+        }
+        .social-links img:hover {
+            transform: scale(1.1);
+        }
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- صورة شخصية -->
+    <img src="https://your-image-link.jpg" alt="صورة Raed" class="profile-img">
+
+    <!-- الاسم -->
+    <h1>Raed Al-zaidi</h1>
+
+    <!-- الروابط -->
+    <div class="social-links">
+        <!-- واتساب -->
+        <a href="https://wa.me/9647721372316" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+        </a>
+
+        <!-- تليكرام -->
+        <a href="https://t.me/07721372316" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram">
+        </a>
+
+        <!-- إنستاگرام -->
+        <a href="https://www.instagram.com/x.r_x.n/profilecard/?igsh=MWJzNG1rYnd4bnQ2Mw==" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+        </a>
+
+        <!-- فيسبوك -->
+        <a href="https://www.facebook.com/share/19Tqat4kwR/?mibextid=wwXIfr" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+        </a>
+
+        <!-- تيك توك -->
+        <a href="https://www.tiktok.com/@rx.77_7?_t=ZS-8xLVaKB6Fx1&_r=1" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/3046/3046120.png" alt="TikTok">
+        </a>
+    </div>
+
+</body>
+</html>
